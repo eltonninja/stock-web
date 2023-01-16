@@ -9,7 +9,7 @@ function PortfolioTable({
   totalCurrent,
 }) {
   return (
-    <Table cellSpacing={1} cellPadding={1} className="portfolio-table">
+    <Table cellSpacing={0} cellPadding={0} className="portfolio-table">
       <thead>
         <FieldRow>
           <td>Contract</td>
